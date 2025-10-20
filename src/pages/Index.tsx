@@ -283,7 +283,7 @@ const Index = () => {
                           </p>
                         </div>
                         <p className="text-xl md:text-2xl font-bold mt-0.5 text-white hover:scale-105 transition-all duration-300 cursor-default">
-                          Viktor Ort
+                          Katrin Keuter
                         </p>
                       </div>
                       
