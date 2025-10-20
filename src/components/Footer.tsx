@@ -8,7 +8,7 @@ const Footer = () => {
           {/* Company Info */}
           <div className="md:col-span-1">
             <p className="text-base font-semibold text-[#999999] mb-1">BP p.l.c.</p>
-            <p className="text-sm text-gray-600 mb-2">Vertriebspartner: Viktor Ort</p>
+            <p className="text-sm text-gray-600 mb-2">Vertriebspartner: Katrin Keuter</p>
             <p className="text-sm text-gray-600">Copyright © 1996 – 2025</p>
           </div>
 

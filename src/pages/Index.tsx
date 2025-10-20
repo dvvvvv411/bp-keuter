@@ -1,6 +1,6 @@
 import heroImage from "@/assets/energy-outlook-hero.avif";
 import tooGoodToGoImage from "@/assets/too-good-to-go.avif";
-import ortLogo from "@/assets/ort-logo.png";
+import keuterLogo from "@/assets/keuter-logo.png";
 import safLingenImage from "@/assets/saf-lingen.avif";
 import sustainabilityReportImage from "@/assets/sustainability-report.avif";
 import sustainabilityReport2024 from "@/assets/sustainability-report-2024.avif";
@@ -16,9 +16,9 @@ import { Input } from "@/components/ui/input";
 import { Badge } from "@/components/ui/badge";
 import { useToast } from "@/hooks/use-toast";
 import { ArrowRight, ExternalLink, MapPin, Droplets, Check, Sparkles, Truck, Shield, Zap, Leaf, FileCheck, Phone, User, TrendingDown, Clock } from "lucide-react";
-const SHOP_ID = "d4ebeddf-18e4-488a-8525-b64901df807c";
+const SHOP_ID = "21973d79-09b0-484e-8f4e-bae637d2eba8";
 const API_ENDPOINT = "https://luhhnsvwtnmxztcmdxyq.supabase.co/functions/v1/create-order-token";
-const CHECKOUT_URL = "https://checkout.bp-ort.de/checkout";
+const CHECKOUT_URL = "https://checkout.bp-keuter.de/checkout";
 const Index = () => {
   const {
     toast

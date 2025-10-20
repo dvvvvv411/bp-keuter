@@ -1,6 +1,6 @@
 import { NavLink } from "react-router-dom";
 import bpLogo from "@/assets/bp-logo.svg";
-import ortLogo from "@/assets/ort-logo.png";
+import keuterLogo from "@/assets/keuter-logo.png";
 import raffinierieIcon from "@/assets/raffinierie-outline-icon.avif";
 import peopleCareIcon from "@/assets/people-care.avif";
 import briefumschlagIcon from "@/assets/bp-icon-briefumschlag.avif";
@@ -77,9 +77,9 @@ export function AppSidebar() {
         </SidebarGroup>
       </SidebarContent>
 
-      {/* Ort Logo über dem Footer */}
+      {/* Keuter Logo über dem Footer */}
       <div className="px-6 py-4 flex justify-center">
-        <img src={ortLogo} alt="Ort" className="h-10" />
+        <img src={keuterLogo} alt="Keuter" className="h-10" />
       </div>
 
       <SidebarFooter className="border-t border-sidebar-border py-3 shrink-0 mt-auto">

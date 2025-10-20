@@ -2,7 +2,7 @@ import { Menu } from "lucide-react";
 import { useSidebar } from "@/components/ui/sidebar";
 import { useIsMobile } from "@/hooks/use-mobile";
 import bpLogo from "@/assets/bp-logo.svg";
-import ortLogo from "@/assets/ort-logo.png";
+import keuterLogo from "@/assets/keuter-logo.png";
 import { useLocation } from "react-router-dom";
 
 export function MobileHeader() {
@@ -26,11 +26,11 @@ export function MobileHeader() {
           <Menu className="h-6 w-6 text-gray-700" />
         </button>
 
-        {/* BP & Ort Logos - Mittig (nur auf Homepage) */}
+        {/* BP & Keuter Logos - Mittig (nur auf Homepage) */}
         {isHomePage && (
           <div className="flex-1 flex justify-center items-center gap-4">
             <img src={bpLogo} alt="BP Logo" className="h-14" />
-            <img src={ortLogo} alt="Ort" className="h-10" />
+            <img src={keuterLogo} alt="Keuter" className="h-10" />
           </div>
         )}
 
